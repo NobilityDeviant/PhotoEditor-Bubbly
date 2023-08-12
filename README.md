@@ -1,6 +1,6 @@
 # PhotoEditor
 
-[![](https://jitpack.io/v/NobilityDeviant/PhotoEditor.svg)](https://jitpack.io/#NobilityDeviant/PhotoEditor)
+[![](https://jitpack.io/v/NobilityDeviant/PhotoEditor-Bubbly.svg)](https://jitpack.io/#NobilityDeviant/PhotoEditor-Bubbly)
 
 This is an edited version for my personal usages.
 The only thing that's changed in the ReadMe is how to import into gradle.
@@ -38,7 +38,7 @@ A Photo Editor library with simple, easy support for image editing using Paints,
 - Easy image editing
 
 ## Getting Started
-To start with this visit [How To Import](https://jitpack.io/#NobilityDeviant/PhotoEditor/)
+To start with this visit [How To Import](https://jitpack.io/#NobilityDeviant/PhotoEditor-Bubbly/)
 
 ## Migrations
 ### AndroidX

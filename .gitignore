@@ -141,3 +141,6 @@ google-services.json
 freeline.py
 freeline/
 freeline_project_description.json
+
+# Remove the app because of bloat, but keep it locally
+app

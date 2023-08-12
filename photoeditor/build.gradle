@@ -54,7 +54,7 @@ publishing {
     publications {
         release(MavenPublication) {
             groupId = 'com.github.NobilityDeviant'
-            artifactId = 'PhotoEditor'
+            artifactId = 'PhotoEditor-Bubbly'
             version = '1.0'
 
             afterEvaluate {
