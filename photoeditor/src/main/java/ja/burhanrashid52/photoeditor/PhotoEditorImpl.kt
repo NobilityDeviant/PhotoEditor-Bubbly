@@ -268,6 +268,12 @@ internal class PhotoEditorImpl @SuppressLint("ClickableViewAccessibility") const
     override val isCacheEmpty: Boolean
         get() = viewState.addedViewsCount == 0 && viewState.redoViewsCount == 0
 
+    override val hasUndos: Boolean
+        get() = viewState.addedViewsCount > 0
+
+    override val hasRedos: Boolean
+        get() = viewState.redoViewsCount > 0
+
     // region Shape
     override fun setShape(shapeBuilder: ShapeBuilder) {
         drawingView.currentShapeBuilder = shapeBuilder

@@ -86,14 +86,11 @@ internal class PhotoSaverTask(
     }
 
     private fun captureView(view: View): Bitmap {
-        val temp = Bitmap.createBitmap(
+        val bitmap = Bitmap.createBitmap(
             view.width,
             view.height,
             Bitmap.Config.ARGB_8888
         )
-        val bitmap = if (saveSettings.disableHardware)
-            temp.copy(Bitmap.Config.ARGB_8888, true)
-        else temp
         val canvas = Canvas(bitmap)
         view.draw(canvas)
         canvas.setBitmap(null)

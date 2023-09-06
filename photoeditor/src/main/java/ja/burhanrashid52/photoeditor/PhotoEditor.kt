@@ -260,6 +260,10 @@ interface PhotoEditor {
      */
     val isCacheEmpty: Boolean
 
+    val hasUndos: Boolean
+
+    val hasRedos: Boolean
+
     /**
      * Builder pattern to define [PhotoEditor] Instance
      */
